@@ -8,6 +8,8 @@ magic_code = "# MAGIC "
 databricks_nb_start = "# Databricks notebook source\n"
 
 def nb2py(notebook):
+    """ Function for converting from notebook to py file
+    """
     result = []
     cells = notebook['cells']
     
@@ -35,6 +37,8 @@ def nb2py(notebook):
 
 
 def py2nb(py_str):
+    """ Function for converting from py file to notebook
+    """
     # remove leading header comment
     if py_str.startswith(header_comment):
         py_str = py_str[len(header_comment):]
@@ -90,6 +94,10 @@ def py2nb(py_str):
 
 
 def convert_databricks_nb(in_file, out_file):
+    """ This is the main funciton, figures out which 
+        way the conversion is going (i.e. py -> ipynb or
+        ipynb -> py) or throws an error message
+    """
     _, in_ext = path.splitext(in_file)
     _, out_ext = path.splitext(out_file)
 
