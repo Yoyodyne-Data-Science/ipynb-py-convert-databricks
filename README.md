@@ -20,5 +20,10 @@ And from an IPython notebook to a `.py` file (i.e. a function presumably similar
 
 Let's say we write the following notebook in databricks:
 <p align="center">
-  <img width="460" src="example_databricks_notebook.PNG">
+  <img width="600" src="example_databricks_notebook.PNG">
+</p>
+
+On, exporting, databricks will convert it to a 	`.py` file which looks like this:
+<p align="center">
+  <img width="600" src="example_databricks_notebook_dbconversion.PNG">
 </p>
