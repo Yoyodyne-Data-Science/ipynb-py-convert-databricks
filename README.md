@@ -20,12 +20,12 @@ And from an IPython notebook to a `.py` file (i.e. a function presumably similar
 
 Let's say we write the following notebook in databricks:
 <p align="center">
-  <img width="800" src="example_databricks_notebook.PNG">
+  <img width="900" src="example_databricks_notebook.PNG">
 </p>
 
 On, exporting, databricks will convert it to a 	`.py` file which looks like this:
 <p align="center">
-  <img width="500" src="example_databricks_notebook_dbconversion.PNG">
+  <img width="400" src="example_databricks_notebook_dbconversion.PNG">
 </p>
 
 Although this is a perfectly functioning `.py` script, it's lost the IPython notebook formatting of the original databricks notebook.
@@ -36,5 +36,5 @@ By running:
 
 we convert this file to an IPython notebook which looks like this:
 <p align="center">
-  <img width="500" src="example_databricks_notebook_conv.PNG">
+  <img width="900" src="example_databricks_notebook_conv.PNG">
 </p>
