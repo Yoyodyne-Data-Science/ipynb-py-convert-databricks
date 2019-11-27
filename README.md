@@ -15,3 +15,10 @@ Conversion is possible both ways; from the `.py` version made by databricks to a
 And from an IPython notebook to a `.py` file (i.e. a function presumably similar to the one Databricks itself runs before exporting notebooks):
 
 `convert_databricks_nb('databricks_nb.ipynb','databricks_nb.py')`
+
+## Example
+
+Let's say we write the following notebook in databricks:
+<p align="center">
+  <img width="460" src="example_databricks_notebook.png">
+</p>
