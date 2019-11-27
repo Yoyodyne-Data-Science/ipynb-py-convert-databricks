@@ -25,7 +25,7 @@ Let's say we write the following notebook in databricks:
 
 On, exporting, databricks will convert it to a 	`.py` file which looks like this:
 <p align="center">
-  <img width="600" src="example_databricks_notebook_dbconversion.PNG">
+  <img width="500" src="example_databricks_notebook_dbconversion.PNG">
 </p>
 
 Although this is a perfectly functioning `.py` script, it's lost the IPython notebook formatting of the original databricks notebook.
@@ -36,5 +36,5 @@ By running:
 
 we convert this file to an IPython notebook which looks like this:
 <p align="center">
-  <img width="600" src="example_databricks_notebook_dbconversion_conv.PNG">
+  <img width="500" src="example_databricks_notebook_conv.PNG">
 </p>
