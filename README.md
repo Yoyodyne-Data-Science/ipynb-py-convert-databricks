@@ -20,5 +20,5 @@ And from an IPython notebook to a `.py` file (i.e. a function presumably similar
 
 Let's say we write the following notebook in databricks:
 <p align="center">
-  <img width="460" src="example_databricks_notebook.png">
+  <img width="460" src="example_databricks_notebook.PNG">
 </p>
