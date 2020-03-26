@@ -1,4 +1,4 @@
-![alt text](/example/yoydyne_data_science_logo.png "Yoydyne Data Science")
+![alt text](./example/yoydyne_data_science_logo.png "Yoydyne Data Science")
 
 # ipynb-py-convert-databricks
 
