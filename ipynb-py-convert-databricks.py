@@ -187,7 +187,3 @@ def convert_databricks_nb(in_file:str, out_file:str) -> NoReturn:
 
     else:
         raise(Exception(f'File extension not allowed. Allowed extensions are: {nb_extension}, {py_extension} or {sql_extension}'))
-
-#convert_databricks_nb('DE 3.1 - Schemas and Tables.sql', 'DE 3.1 - Schemas and Tables.ipynb')
-#convert_databricks_nb('example_databricks_notebook_conv.ipynb', 'example_databricks_notebook_conv.py')
-convert_databricks_nb('example_databricks_notebook.sql', 'example_databricks_notebook.ipynb')

@@ -10,12 +10,17 @@ Databricks exports `.ipynb` files (e.g. when version controlling) as `.py` or `.
 
 ## How?
 
-Conversion is possible both ways; from the `.py` or `sql` version made by databricks to an IPython notebook:
+Different conversions are possible:
+
+* from the `.py` version made by Databricks to an IPython notebook:
 
 `convert_databricks_nb('databricks_nb.py', 'databricks_nb.ipynb')`
+
+* from the `sql` version made by Databricks to an IPython notebook:
+
 `convert_databricks_nb('databricks_nb.sql', 'databricks_nb.ipynb')`
 
-And from an IPython notebook to a `.py` file (i.e. a function presumably similar to the one Databricks itself runs before exporting notebooks):
+* and from an IPython notebook to a `.py` file (i.e. a function presumably similar to the one Databricks itself runs before exporting notebooks):
 
 `convert_databricks_nb('databricks_nb.ipynb','databricks_nb.py')`
 
